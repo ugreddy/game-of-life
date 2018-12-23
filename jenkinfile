@@ -6,7 +6,7 @@ node {
     
     stage('build') {
     // some block
-      sh 'mvn package'
+      bat 'mvn package'
     }
 
 }
